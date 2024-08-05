@@ -19,7 +19,7 @@ const DayForecast = ({day, icon, tempmax, tempmin}) => {
     return (
         <div className='dayfct-container glass'>
             <span>{dayy}</span>
-            <img className='day-weather-icon' src={`/assets/weather-icons/icons/${dayWeather}.png`} alt={dayWeather} />
+            <img className='day-weather-icon' src={`/assets/weather-icons/icons/${dayWeather.toLowerCase()}.png`} alt={dayWeather} />
             <span className='day-temp'>{tempmax}°/{tempmin}°</span>
         </div>
     )
