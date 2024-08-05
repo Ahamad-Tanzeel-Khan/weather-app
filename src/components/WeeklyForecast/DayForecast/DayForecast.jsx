@@ -13,6 +13,8 @@ const DayForecast = ({day, icon, tempmax, tempmin}) => {
     let dayWeather = icon.split(',')[0]
     tempmax = Math.round((tempmax - 32) * (5 / 9)) - 2
     tempmin = Math.round((tempmin - 32) * (5 / 9)) - 2
+
+    console.log(dayWeather)
     
     return (
         <div className='dayfct-container glass'>
