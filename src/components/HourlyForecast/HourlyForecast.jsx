@@ -9,9 +9,6 @@ const HourlyForecast = ({ hourlyData, tempmin, tempmax}) => {
     tempmax = Math.round((tempmax - 32) * (5 / 9)) - 2
     tempmin = Math.round((tempmin - 32) * (5 / 9)) - 2
 
-    console.log(hourlyData)
-
-
     const filteredHourlyData = hourlyData.filter(hour => {
         const hourTime = parseInt(hour.datetime.split(':')[0]);
         return hourTime >= 0 && hourTime <= 23;

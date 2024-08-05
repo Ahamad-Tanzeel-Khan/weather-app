@@ -1,6 +1,5 @@
 const VideoMapping = (condition) => {
   const conditions = condition.split(',').map(cond => cond.trim());
-  console.log(conditions)
   for (let cond of conditions) {
     switch (cond) {
       case 'Clear':
