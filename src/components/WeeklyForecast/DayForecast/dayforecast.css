@@ -1,0 +1,19 @@
+.dayfct-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #000100;
+    gap: 20px;
+    padding: 20px;
+    width: 120px;
+    font-size: 25px;
+}
+
+.day-weather-icon{
+    height: 50px;
+}
+
+.day-temp{
+    font-size: 20px;
+}

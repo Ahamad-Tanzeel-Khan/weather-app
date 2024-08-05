@@ -1,0 +1,11 @@
+.chart-container {
+    width: 100%;
+    margin: 20px auto;
+    color: #fff;
+    height: 100%;
+}
+
+.chart-container h1{
+    margin-bottom: 50px;    
+}
+  

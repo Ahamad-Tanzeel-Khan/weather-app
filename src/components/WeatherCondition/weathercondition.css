@@ -1,0 +1,51 @@
+.other-factors-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 200px;
+    background-color: #000100
+}
+
+.other-factors-img{
+    height: 30px
+}
+
+.other-factors-title{
+    font-size: 25px
+}
+
+.other-factors-data{
+    font-size: 45px;
+}
+
+
+@media only screen and (max-width: 1280px) {
+    .other-factors-title{
+        font-size: 20px
+    }    
+    .other-factors-data{
+        font-size: 35px;
+    }
+}
+
+
+@media only screen and (max-width: 990px) {
+    .other-factors-container{
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .other-factors-container{
+        gap: 15px;
+    }
+    .other-factors-title{
+        font-size: 20px
+    }    
+    .other-factors-data{
+        font-size: 30px;
+    }
+}

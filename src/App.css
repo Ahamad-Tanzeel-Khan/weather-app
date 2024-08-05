@@ -1,0 +1,163 @@
+@import url(https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap);
+
+.main-container {
+  /* font-family: raleway; */
+  
+  color: #fff;
+  padding: 60px 8%;
+}
+
+.glass{
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border:1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.bg-vid-container{
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.bg-vid { 
+  position: fixed; 
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover; 
+  z-index: 0;
+}
+
+.background{
+  position: fixed;
+  background-color: #000000;
+  opacity: 0.3;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.header-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.form-container{
+  padding: 5px 15px;
+  background-color: #000;
+}
+.search-input{
+  border: none;
+  background: none;
+  outline: none;
+  color: #fff;
+  padding: 0 10px;
+}
+
+.search-btn{
+  border: none;
+  background: none;
+  outline: none;
+  color: #fff;
+}
+
+.search-img{
+  height: 20px;
+}
+
+.current-weather-app-container{
+  display: flex;
+  gap: 50px;
+}
+
+.other-factors-app-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.other-factors-app-1, .other-factors-app-2{
+  display: flex;
+  justify-content: space-between;
+  width: 100%
+}
+
+.weekly-forecast-container{
+  margin-top: 100px;
+}
+
+
+@media only screen and (max-width: 1280px) {
+  .main-container {
+    padding: 60px 4%;
+  }
+
+}
+
+
+
+@media only screen and (max-width: 990px) {
+  .main-container {
+    padding: 60px 14%;
+  }
+
+  .current-weather-app-container{
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .other-factors-app-container{
+    flex-direction: row;
+    gap: 30px;
+  }
+
+  .other-factors-app-1, .other-factors-app-2{
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  .main-container{
+    padding: 30px 5%;
+  }
+  .content{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .header-container{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+  }
+  .form-container{
+    width: 70%;
+  }
+  .form-container form{
+    justify-content: space-between;
+  }
+  .weekly-forecast-container{
+    margin-top: 70px;
+  }
+  
+}
+
+
+
+@media only screen and (max-width: 481px) {
+  .other-factors-app-container{
+    flex-direction: column;
+  }
+  .form-container{
+    width: 92%;
+  }
+}

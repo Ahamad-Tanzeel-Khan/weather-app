@@ -1,0 +1,30 @@
+.CarouselSlider {
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.CarouselSlider h1{
+    margin-bottom: 50px;
+}
+  
+.carousel-item {
+    display: flex;
+    justify-content: center;
+}
+  
+.react-multi-carousel-track {
+    display: flex;
+    justify-content: center;
+}
+
+.custom-dot-list-style {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .custom-dot-list-style li {
+    margin: 0 5px;
+  }
